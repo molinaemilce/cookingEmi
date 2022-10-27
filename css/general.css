@@ -1,0 +1,124 @@
+body{
+    background-color: red;
+}
+.contenedor-form{
+    background: azure;
+    padding: 40px 20px;
+    border-radius: 15px;
+}
+
+.container__contenido{
+    width: 400px;
+    /* height: 300px; */
+    background: #abcdab;
+    border-radius: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    color: white;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+.navbar-toggler span.navbar-toggler-icon{
+    background-color: #1897b1 !important;
+    border-radius: 30px !important;
+}
+.card__titulo {
+    margin: auto;
+    padding: 10px 5px;
+    font-size: 18px;
+}
+.contenedor__descripcion p{
+    background: aliceblue;
+    margin-top: 15px;
+    padding: 30px 25px;
+    border-radius: 20px 70px 20px 70px;
+    text-align: center;
+}
+.contenedor_card .card{
+border-color: rgb(20, 223, 230);
+}
+.card__titulo a{
+    text-decoration: none;
+    color: cadetblue;
+}
+.titulo_crear{
+    padding-top: 20px;
+    font-size: 17px;
+    margin: auto;
+    width: 30%;
+}
+.contenedor_recetascrear{
+    display: flex;
+
+}
+textarea{
+    height: 300px;
+    resize: none;
+}
+.btn-enviar{
+    background: cadetblue !important;
+    text-transform: uppercase !important;
+    color: white !important;
+    font-weight: bold;
+    width: 150px;
+}
+.contenedor_recetascrear form{
+    width: 65%;;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+.nav-horizontal{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    align-items: center;
+}
+.fondo_receta{
+    background-image: url("../img/receta.jpg") !important;
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+}
+.movimiento{
+    transition: 2000ms;
+}
+.movimiento:hover{
+    transition: 3000ms;
+        transform:  translateY(2px) scale(1.09);
+}
+.portada__imagen{
+    background-image: url(../img/portadahome.jpg);
+    width: 100% !important;
+    height: 48vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: bottom;
+    color: #56ffff ;
+}
+.descripcion_home{
+    padding: 20px 0px 15px 0px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    font-style: oblique;
+}
+.portada__titulo{
+    letter-spacing: 5px;
+    box-shadow: 2px 2px 2px 1px #6bffff;
+}
+.shadow-border{
+    box-shadow: 2px 2px 2px 1px #6bffff;
+}
+.header{
+    background: #49bbbb;
+}
+.header a{
+    color: white;
+}
