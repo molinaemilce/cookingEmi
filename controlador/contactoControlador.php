@@ -21,8 +21,11 @@ class ContactoControlador
         @mail("emilcedaiana117@gmail.com", "Mensajo enviado de misitio", $cuerpo_mail);
 
 
-        //onexion a base de datos     1)localhost2)usuario 3)contraseña 4)nombre db
+        //Conexion a base de datos al 000webhost
+
+        //1)localhost2)usuario 3)contraseña 4)nombre db
         // $conexion = mysqli_connect("localhost","id19701902_naranja","9Mm??oNXfw&{(Hey","id19701902_contacto") or exit ("No se pudo conectar la base de datos");
+        //Conexion al mysqlphpmyadmin
         $conexion = mysqli_connect("localhost", "root", "", "tabla1") or exit("No se pudo conectar a base de datos");
 
         mysqli_query($conexion, "INSERT INTO contacto VALUES (DEFAULT,'$nombre_form','$apellido_form','$email_form','$mensaje_form')");
