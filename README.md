@@ -12,7 +12,7 @@ Se utilizó lo aprendido en clases, MVC,  tambien php nativo orientado a objetos
 <br>
 <br>
 
- Esto está subido al 000webhost, pero a utlimo momento se presentó un error de credencial y conexion en la base de datos, por lo cual al estar sin tiempo lo hice atraves del mysql del xampp, que pude crear sin problemas los valores en el sql, dejo de todas formas lo que se subio al hosting: https://talentcamp.000webhostapp.com/vista/recetas.php <br>
+ Esto está subido al 000webhost, pero a utlimo momento se presentó un error de credencial y conexion en la base de datos, por lo cual al estar sin tiempo lo hice atraves del mysql del xampp, que pude crear sin problemas los valores en el sql, dejo de todas formas lo que se subio al hosting: https://talentcamp.000webhostapp.com/vista/index.php <br>
 
  # Instrucciones para manipularlo de manera local
  1)Activar xampp  <br>
