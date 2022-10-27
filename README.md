@@ -19,6 +19,7 @@ Se utilizó lo aprendido en clases, MVC,  tambien php nativo orientado a objetos
  2)Dentro de la carpeta sql, deje exportado la base de datos que utilicé, por lo cual hay que importarlo desde el phpmyadmin <br>
  3)Desde esta ruta ya podes manipular el sitio web: http://localhost/proyectotalentcamp/vista/index.php
 
-
+Dejo los videos donde se ve que funciona correctamente de manera local:
+https://drive.google.com/drive/folders/1SAIIhwVJeGdb_2TRzAVK9mkIaL-ajNbe?usp=sharing
 
 
